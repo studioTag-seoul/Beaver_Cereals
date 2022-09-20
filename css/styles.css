@@ -1,4 +1,10 @@
-@import './reset.css';
-@import './variable.css';
+@import "./reset.css";
+@import "./variable.css";
+
+/* font */
+@import "../asset - Beaver Cereals/font/font.css";
 
 /* Components */
+
+/* screens */
+@import "../css/screens/shop.css";
