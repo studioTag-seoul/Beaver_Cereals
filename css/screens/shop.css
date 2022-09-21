@@ -1,0 +1,62 @@
+.shopBackground {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  background-image: url("../../asset - Beaver Cereals/Images/Background/background - Texture Gray.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shopMenus {
+  display: flex;
+  gap: 6.8rem;
+}
+
+.shopMenu {
+  font-size: 3rem;
+  font-family: "Impact";
+  color: #fff;
+  cursor: pointer;
+  -webkit-text-stroke: 2px var(--mainColor);
+}
+
+.selected {
+  border-radius: 10rem/ 5.5rem;
+  box-shadow: 0 0 1rem 1rem var(--buttonColor);
+  background-color: var(--buttonColor);
+}
+
+.cerealProducts {
+  display: flex;
+  gap: 10rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.cerealProducts li {
+}
+
+.cerealProducts img {
+  width: 15rem;
+}
+
+.cerealProducts p {
+  font-size: 2.2rem;
+  font-family: "Impact";
+  color: var(--mainColor);
+  margin: 1rem;
+}
+
+.cerealProducts p:nth-child(3) {
+  color: var(--subColor);
+  text-align: right;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: var(--darkGrayColor);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
