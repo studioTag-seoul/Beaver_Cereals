@@ -1,0 +1,22 @@
+.nav {
+  position: fixed;
+  font-family: "Impact";
+  width: 100%;
+  padding: 0.6rem 2rem;
+  box-sizing: border-box;
+  background-color: var(--mainColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav .navList .navAnchor {
+  color: var(--subColor);
+  font-size: 3.3rem;
+  text-shadow: var(--textBorder);
+  letter-spacing: 0.1rem;
+}
+
+.nav .navList #logo {
+  width: 18rem;
+}
