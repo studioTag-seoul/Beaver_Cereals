@@ -30,16 +30,26 @@
 
 .cerealProducts {
   display: flex;
-  gap: 10rem;
+  gap: 20rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
-.cerealProducts li {
+.cereal {
+  position: relative;
 }
 
-.cerealProducts img {
+.cerealImg {
   width: 15rem;
+  cursor: pointer;
+}
+
+.saleImg {
+  position: absolute;
+  width: 10rem;
+  top: -2rem;
+  left: 0rem;
+  /* box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.5); */
 }
 
 .cerealProducts p {
@@ -49,7 +59,7 @@
   margin: 1rem;
 }
 
-.cerealProducts p:nth-child(3) {
+.cereal p:nth-of-type(2) {
   color: var(--subColor);
   text-align: right;
 }
